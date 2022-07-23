@@ -3,8 +3,11 @@ from numpy import equal
 import pymongo
 from pymongo import MongoClient
 from tabulate import tabulate
-# Ejecutar pip install pymongo
-# Ejecutar pip install tabulate
+# Ejecutar 
+#pip install pymongo
+#pip install tabulate
+#pip install numpy
+#pip install "pymongo[srv]"
 cluster = MongoClient("mongodb+srv://neider:1234@neiderpuentes.kxb2kxz.mongodb.net/?retryWrites=true&w=majority")
 db = cluster.ejercicio
 collection = db.equipos
