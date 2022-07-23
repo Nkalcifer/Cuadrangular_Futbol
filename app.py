@@ -1,4 +1,3 @@
-from cgitb import reset
 from itertools import combinations
 from numpy import equal, intp
 import pymongo
