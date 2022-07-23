@@ -101,7 +101,6 @@ def Eliminar_todo():
         return "Error"
     return "Base de Datos Vaciada"
 
-
 def agregar_marcador(id, golE1, golE2):
     try:
         partido=enfrentamiento(id)
